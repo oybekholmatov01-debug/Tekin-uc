@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 150px 20px;
+}
+
+.contectForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 320px;
+    width: 100%;
+}
+
+#name, #email, #message{
+    width: 100%;
+    padding: 5px 12px;
+    font-size: 18px;
+}
+
+.btn{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
